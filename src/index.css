@@ -1,13 +1,94 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+.w-300 {
+  width: 340px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mynav-btn {
+  width: 177px;
+  height: 55px;
+  border-radius: 20px !important;
+  font-size: 25px !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  border: none !important;
+  background-color: #03989e !important;
+  font-family: "Effra Arbc" !important;
+}
+.mynav-btn2 {
+  width: 202px;
+  height: 55px;
+  border-radius: 20px !important;
+  background-color: transparent !important;
+  border: 2px solid #ffffff !important;
+  border-radius: 20px !important;
+  font-size: 25px !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  font-family: "Effra Arbc" !important;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  color: white !important;
+}
+.nav-link {
+  border-bottom: 2px solid white;
+  font-size: 25px !important;
+  font-weight: 500 !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50%;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+}
+
+.card-image-container {
+  position: relative;
+}
+.card-logo {
+  position: absolute;
+  top: 20rem;
+  right: 14rem;
+}
+
+.card-btn {
+  border-radius: 10px !important;
+  color: #ffffff !important;
+  border: none !important;
+  background-color: #03989e !important;
+}
+
+.progress-bar {
+  background-color: #03989e !important;
+  height: "40px" !important;
+}
+
+.color-primary {
+  color: #03989e;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.search-outline-btn {
+  width: 200px !important;
+  background-color: white !important;
+  color: #03989e !important;
+  border-radius: 11px !important;
 }
